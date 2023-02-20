@@ -1,5 +1,5 @@
 
-package paulo.prueba;
+package Poo.Guia7;
 
 import java.util.Scanner;
 

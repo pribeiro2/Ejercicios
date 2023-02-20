@@ -1,4 +1,4 @@
-package paulo.prueba;
+package Poo.Guia7;
 
 import java.util.Scanner;
 
@@ -12,21 +12,20 @@ import java.util.Scanner;
  *
  * @author alejandrocruz
  */
-public class Ejercicio1a {
+public class Ejercicio2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int n1;
-        int n2;
-        
+        String nombre; 
         Scanner leer = new Scanner(System.in);
-        System.out.println("Ingrese dos números: ");
-        n1 = leer.nextInt();
-        n2 = leer.nextInt();
-        System.out.println("La suma de " + n1 + " + " + n2 + " es igual a: " + (n1+n2));
+        System.out.println("Ingrese su nombre: ");
+        nombre = leer.nextLine();
+        System.out.println("El nombre ingresado es: " + nombre);
+        
+        
     }
     
 }

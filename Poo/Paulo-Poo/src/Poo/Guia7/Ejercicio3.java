@@ -1,4 +1,4 @@
-package paulo.prueba;
+package Poo.Guia7;
 import java.util.Scanner;
 import static jdk.nashorn.internal.objects.NativeString.toLowerCase;
 import static jdk.nashorn.internal.objects.NativeString.toUpperCase;
