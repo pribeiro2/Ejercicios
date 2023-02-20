@@ -6,13 +6,22 @@
 package paulo.prueba;
 
 import java.util.Scanner;
-public class PauloPrueba {
+
+/**
+ *
+ * @author Paulo
+ */
+public class Ejercicio5 {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
+      int num;
         Scanner leer = new Scanner(System.in);
-        String nombre;
-        System.out.println("Ingresar tu nombre:");
-        nombre = leer.next();
-        System.out.println("hola mundo soy " + nombre + " y estoy programando en java");   
+        System.out.println("Ingrese un número");
+        num=leer.nextInt();
+        System.out.println("La raíz cuadrada es: "+ Math.sqrt(num) +" Doble: "+num*2 + " Triple: "+num*3);
     }
     
 }
