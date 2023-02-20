@@ -6,7 +6,7 @@ public class Ejercicio11 {
 
     public static void main(String[] args) {
         int num1, num2, opcion;
-        String seguir;
+        String seguir,respuesta;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Igrese un numero: ");
         Scanner leer = new Scanner(System.in);
@@ -40,15 +40,23 @@ public class Ejercicio11 {
                 seguir = teclado.nextLine();
                 break;
             case 4:
+                if (num2==0){
+                    System.out.println("Division de "+num1+"/"+num2+" No es posible");
+                } else {
                 System.out.println("Division de "+num1+"/"+num2+"="+(num1/num2));
+                        }
                 System.out.println("Press Enter key to continue...");
                 seguir = teclado.nextLine();
                 break;
             case 5:
-                System.out.println("Saliendo....");
-                System.out.println("Press Enter key to continue...");
-                seguir = teclado.nextLine();
-                break;
+                System.out.print("Esta seguro que quiere slair 'S': ");
+                    respuesta=teclado.nextLine();
+               if (respuesta.equalsIgnoreCase("S")) {
+                   break;
+               }else {
+                   opcion=0;
+                   break;        
+                       }
             default:
                 break;
                         }
