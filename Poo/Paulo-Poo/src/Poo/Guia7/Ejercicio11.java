@@ -49,7 +49,7 @@ public class Ejercicio11 {
                 seguir = teclado.nextLine();
                 break;
             case 5:
-                System.out.print("Esta seguro que quiere slair 'S': ");
+                System.out.print("Esta seguro que quiere salir 'S/N': ");
                     respuesta=teclado.nextLine();
                if (respuesta.equalsIgnoreCase("S")) {
                    break;

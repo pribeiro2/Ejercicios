@@ -14,7 +14,7 @@ public class Ejercicio12 {
                 {        
             if (cadena.length() >= 5)
              {
-                if ("O".equals(cadena.substring(0,1)) && "X".equals(cadena.substring(4,5)) & (cadena.length() == 5)) {
+                if ("X".equals(cadena.substring(0,1)) && "O".equals(cadena.substring(4,5)) && (cadena.length() == 5)) {
                     cuentaCorrectas++;
                 } else {
                     cuentaIncorrectas++;
