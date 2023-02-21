@@ -29,6 +29,7 @@ public class Ejercicio10 {
         n2 = leer.nextInt();
         suma = suma + n2;
         } while (suma < n);
+        System.out.println("Suma total es : "+suma);
     }
     
 }
