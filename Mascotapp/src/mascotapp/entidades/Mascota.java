@@ -49,6 +49,10 @@ public class Mascota {
         this.tipo = tipo;
     }
 
+    public void setEnergia(int energia) {
+        this.energia = energia;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }
@@ -118,4 +122,5 @@ public class Mascota {
         return "Mascota{" + "nombre=" + nombre + ", apodo=" + apodo + ", tipo=" + tipo + ", color=" + color + ", edad=" + edad + ", cola=" + cola + ", raza=" + raza + ", energia=" + energia + '}';
     }
 
+    
 }
